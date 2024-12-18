@@ -1,0 +1,24 @@
+{
+    "name": "daw2/mvc_test_php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Daw2\\MvcTestPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TeRacksito",
+            "email": "acho.chuchi.8@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "philo/laravel-blade": "^3.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
